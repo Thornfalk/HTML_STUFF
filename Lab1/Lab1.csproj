@@ -114,6 +114,9 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="Page_1.html" />
+    <Content Include="Page_2.html" />
+    <Content Include="Page_3.html" />
+    <Content Include="Page_4.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
