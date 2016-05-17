@@ -1,0 +1,25 @@
+﻿body {background-color:cornflowerblue;
+}
+#wrapper{
+    background-color:wheat;
+    width:731px;
+    float:left;
+    border:5px solid green;
+    padding:5px;
+}
+figure{
+    float:left;
+}
+img{
+    width:150px;
+    height:200px;
+    margin:5px;
+    border:2px solid black;
+}
+#info{
+    margin-left:15px;
+}
+#money{
+    margin-left:40px;
+}
+
