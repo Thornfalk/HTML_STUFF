@@ -97,7 +97,9 @@
     <Content Include="Game_Store.html" />
     <Content Include="images\immorthalThrone.jpg" />
     <Content Include="images\TitanQuestFront.jpg" />
+    <Content Include="images\TitanQuestFrontOld.jpg" />
     <Content Include="images\TitanQuestGoldCover.jpg" />
+    <Content Include="images\Titan_Quest_Immortal_ThroneOld.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

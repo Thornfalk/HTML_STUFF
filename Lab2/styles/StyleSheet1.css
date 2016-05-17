@@ -1,11 +1,21 @@
-﻿body {background-color:cornflowerblue;
+﻿html{
+    background-color:lightblue;
+}
+body {
+    background-color:grey;
+    padding-left:250px;
+}
+header{
+    margin-right:285px;
+}
+nav{
+    background-color:gray;
 }
 #wrapper{
-    background-color:wheat;
-    width:731px;
+    background-color:snow;
     float:left;
-    border:5px solid green;
-    padding:5px;
+    max-width:800px;
+    padding-left:100px;
 }
 figure{
     float:left;
@@ -13,7 +23,6 @@ figure{
 img{
     width:150px;
     height:200px;
-    margin:5px;
     border:2px solid black;
 }
 #info{
