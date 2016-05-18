@@ -2,23 +2,25 @@
     background-color:gray;
 }
 body {
-    background-color:lightblue;
+    background-color:wheat;
     padding-left:250px;
 }
 header{
     margin-right:285px;
 }
 nav{
-    background-color:lightblue;
+    background-color:wheat;
 }
 #wrapper{
     background-color:snow;
     float:left;
     max-width:800px;
     padding-left:80px;
+    margin-top:20px;
 }
 figure{
     float:left;
+    border:8px solid wheat;
 }
 img{
     width:120px;
