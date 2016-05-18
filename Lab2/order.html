@@ -1,14 +1,40 @@
-﻿<form>
-    <fieldset>
-        <legend>Contact information</legend>
-        <lable>First name: </lable>
-        <input type="text" name="firstName" />
-        <lable>Last name: </lable>
-        <input type="text" name="lastName" />
-        <br />
-        <lable>E-mail: </lable>
-        <input type="email" name="e-mail" />
-        <lable>Password: </lable>
-        <input type="password" name="password" />
-    </fieldset>
-</form>
+﻿<link href="styles/StyleSheet_order.css" rel="stylesheet" />
+<div id="wrapper">
+    <h2><u>A form to fill in</u></h2>
+    <form>
+        <fieldset>
+            <legend>Contact information</legend>
+            <lable>Username:</lable>
+            <input type="text" name="userName" /> <br />
+            <lable>E-mail:</lable>
+            <input type="email" name="e-mail" /> <br />
+            <lable>Password:</lable>
+            <input type="password" name="password" />
+        </fieldset>
+        <fieldset>
+            <legend>Delivery address</legend>
+            <lable>Name:</lable>
+            <input type="text" name="personRealName" /> <br />
+            <lable>Street:</lable>
+            <input type="text" name="streetName" /> <br />
+            <lable>Town:</lable>
+            <input type="text" name="nameOfTown" /> <br />
+            <lable>Phone:</lable>
+            <input type="tel" name="personPhoneNumber" />
+        </fieldset>
+        <fieldset>
+            <legend>Payment address</legend>
+            <lable>Name:</lable>
+            <input type="text" name="personRealName" /> <br />
+            <lable>Street:</lable>
+            <input type="text" name="streetName" /> <br />
+            <lable>Town:</lable>
+            <input type="text" name="nameOfTown" /> <br />
+            <lable>Phone:</lable>
+            <input type="tel" name="personPhoneNumber" /> <br />
+            <lable>Project number</lable>
+            <input type="text" name="numberOfProject" />
+        </fieldset>
+        <fieldset><input type="submit" name="submitPurchase" value="confirm" /></fieldset>
+    </form>
+</div>
