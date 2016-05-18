@@ -1,15 +1,15 @@
 ﻿html{
-    background-color:lightblue;
+    background-color:gray;
 }
 body {
-    background-color:grey;
+    background-color:lightblue;
     padding-left:250px;
 }
 header{
     margin-right:285px;
 }
 nav{
-    background-color:gray;
+    background-color:lightblue;
 }
 #wrapper{
     background-color:snow;
@@ -21,7 +21,13 @@ figure{
     float:left;
 }
 img{
-    width:110px;
-    height:150px;
+    width:120px;
+    height:160px;
     border:3px solid black;
+}
+#amountToBuy{
+    width:60px;
+}
+#purchaseButton{
+    width:50px;
 }
