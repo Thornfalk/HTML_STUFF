@@ -4,6 +4,8 @@
 body {
     background-color:wheat;
     padding-left:250px;
+    margin-left:auto;
+    margin-right:auto;
 }
 header{
     margin-right:285px;
@@ -15,21 +17,17 @@ nav{
     background-color:snow;
     float:left;
     max-width:800px;
-    padding-left:80px;
+    min-width:800px;
     margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
 }
-figure{
+fieldset{
     float:left;
-    border:8px solid wheat;
+    margin:10px;
 }
 img{
-    width:120px;
-    height:160px;
+    width:130px;
+    height:180px;
     border:3px solid black;
-}
-#amountToBuy{
-    width:60px;
-}
-#purchaseButton{
-    width:50px;
 }
