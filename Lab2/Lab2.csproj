@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Game_Store.html" />
+    <Content Include="index.html" />
     <Content Include="images\immorthalThrone.jpg" />
     <Content Include="images\TitanQuestFront.jpg" />
     <Content Include="images\TitanQuestFrontOld.jpg" />
