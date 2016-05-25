@@ -1,0 +1,10 @@
+﻿body {
+    background-color:red;
+    min-width:620px;
+}
+section{
+    width:47%;
+}
+#section3{
+    width:auto;
+}
