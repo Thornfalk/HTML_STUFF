@@ -1,62 +1,72 @@
-﻿*{
-    margin:0px;
-    padding:0px;
+﻿* {
+    margin: 0px;
+    padding: 0px;
 }
-header{
-    background-color:aquamarine;
-    width:100%
+
+header {
+    background-color: aquamarine;
+    width: 100%;
 }
+
 body {
-    background-color:white;
-    padding:50px;
-    min-width:1000px;
+    background-color: white;
+    padding: 50px;
+    min-width: 1000px;
 }
-h1{
-    text-align:center;
-    padding:50px;
-    width:100%
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    width: 100%;
 }
-nav{
-    position:absolute;
-    top:140px;
-    left:55px;   
+
+nav {
+    position: absolute;
+    top: 140px;
+    left: 55px;
 }
 /*Rules for navmenu*/
-#navMenu, .sub1{
-    list-style-type:none;
+#navMenu, .sub1 {
+    list-style-type: none;
 }
-#navMenu li{
-    width:125px;
-    position:relative;
-    float:left;
-    margin-right:5px;
-}
-#navMenu a{
-    display:block;
-    width:125px;
-    height:35px;
-    text-decoration:none;
-    text-align:center;
-    border-radius:5px;
-    background-color:white;
-    margin:1px;
-    padding-top:5px;
-}
-#navMenu li:hover > a{
-    background-color:aqua;
-}
-#navMenu .sub1{
-    display:none;
-}
-#navMenu li:hover > .sub1{
-    display: block;
-}
+
+    #navMenu li {
+        width: 125px;
+        position: relative;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #navMenu a {
+        display: block;
+        width: 125px;
+        height: 35px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        background-color: white;
+        margin: 1px;
+        padding-top: 5px;
+    }
+
+    #navMenu li:hover > a {
+        background-color: aqua;
+    }
+
+    #navMenu .sub1 {
+        display: none;
+    }
+
+    #navMenu li:hover > .sub1 {
+        display: block;
+    }
 /*end navMenu*/
-img{
-    width:100%;
+img {
+    width: 100%;
 }
-section{
-    width:30%;
-    float:left;
-    margin:1.5%
+
+section {
+    width: 30%;
+    float: left;
+    margin: 1.5%;
 }

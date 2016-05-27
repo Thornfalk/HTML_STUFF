@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dingeling_postit.html" />
     <Content Include="images\Chrysanthemum.jpg" />
     <Content Include="images\Hydrangeas.jpg" />
     <Content Include="images\Tulips.jpg" />
@@ -113,6 +114,7 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="styles\Dingeling_postit.css" />
     <Content Include="styles\myStyleSheet1.css" />
     <Content Include="styles\phone.css" />
     <Content Include="styles\Responsive.css" />
