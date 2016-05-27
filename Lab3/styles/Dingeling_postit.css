@@ -1,23 +1,26 @@
-﻿body{
-    background-color:lightgray;
+﻿body {
+    background-color: lightgray;
 }
-header{
-    background-color:black;
-    color:white;
-    padding:5px;
+
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
-h1{
-    text-align:center;
-    padding-top:10px;
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
 }
-a{
-    display:block;
-    width:120px;
-    height:25px;
-    text-align:center;
-    background-color:white;
-    padding:5px;
-    border-radius:5px;
+
+a {
+    display: block;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /*Rules for postIt1 note*/
@@ -31,9 +34,9 @@ a{
     height: 150px;
     font-family: 'Comic Sans MS';
     text-align: center;
-    position:relative;
-    left:200px;
-    top:100px;
+    position: relative;
+    left: 200px;
+    top: 100px;
 }
 
     #postIt1 #postItBack1 {
@@ -74,9 +77,9 @@ a{
     font-family: 'Comic Sans MS';
     text-align: center;
     float: right;
-    position:relative;
-    top:-300px;
-    right:200px;
+    position: relative;
+    top: -300px;
+    right: 200px;
 }
 
     #postIt2 #postItBack2 {
@@ -103,3 +106,47 @@ a{
             visibility: visible;
         }
 /*legend postIt2 note*/
+
+/*Rules for postIt3 note*/
+#postIt3 {
+    background-color: whitesmoke;
+    margin: 100px;
+    border: 5px solid black;
+    text-shadow: 2px 2px gray;
+    transform: rotate(4deg);
+    width: 200px;
+    height: 150px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    position: relative;
+    left: 700px;
+    top: 50px;
+}
+
+    #postIt3 #postItBack3 {
+        visibility: hidden;
+    }
+
+    #postIt3:hover {
+        transform: scaleY(-2) rotateY(180deg);
+        transition: 2s;
+        transition-delay: 0.5s;
+        background-color: black;
+        color: white;
+        border: 5px dotted white;
+        border-radius: 20px;
+    }
+
+        #postIt3:hover #postItFront3 {
+            visibility: hidden;
+        }
+
+        #postIt3:hover #postItBack3 {
+            transform: rotate(180deg);
+            position: center;
+            position: relative;
+            top: -80%;
+            transition-delay: 1s;
+            visibility: visible;
+        }
+/*legend postIt3 note*/
