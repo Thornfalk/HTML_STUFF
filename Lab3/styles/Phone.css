@@ -1,4 +1,12 @@
-﻿body {
+﻿header{
+    background-color:lightblue;
+    padding:20px;   
+}
+nav{
+    padding:10px;
+}
+body {
+    padding:5px;
 }
 #phoneCase{
     border:5px solid gold;
@@ -6,6 +14,8 @@
     height:600px;
     border-radius:30px;
     background-color:darkgray;
+    margin-left:600px;
+    margin-top:20px;
 }
 #speeker{
     border:3px solid gold;

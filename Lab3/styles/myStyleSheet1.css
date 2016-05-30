@@ -1,20 +1,20 @@
-﻿header{
-    background-color:white;
-    color:black;
-    width:auto;
-    height:100px;
-}
-#headerText{
-    padding:30px;
+﻿header {
+    background-color: white;
+    color: black;
+    width: auto;
+    height: 100px;
 }
 
-body{
-    background-color:black;
-    color:white;
-}
-fieldset{
-    margin-top:30px;
-    border:10px double white;
+#headerText {
+    padding: 30px;
 }
 
-       
+body {
+    background-color: black;
+    color: white;
+}
+
+fieldset {
+    margin-top: 30px;
+    border: 10px double white;
+}
