@@ -1,5 +1,6 @@
 ﻿body {
     background-color: lightgray;
+    margin:2%;
 }
 
 header {
@@ -22,6 +23,10 @@ a {
     padding: 5px;
     border-radius: 5px;
 }
+#wrapper{
+    border:3px solid black;
+    padding:2%
+}
 
 /*Rules for postIt1 note*/
 #postIt1 {
@@ -38,22 +43,18 @@ a {
     left: 200px;
     top: 100px;
 }
-
     #postIt1 #postItBack1 {
         visibility: hidden;
     }
-
     #postIt1:hover {
         transform: scaleY(-2) rotateY(180deg);
         transition: 2s;
         transition-delay: 0.5s;
         background-color: hotpink;
     }
-
         #postIt1:hover #postItFront1 {
             visibility: hidden;
         }
-
         #postIt1:hover #postItBack1 {
             transform: rotate(180deg);
             position: center;
@@ -63,8 +64,6 @@ a {
             visibility: visible;
         }
 /*legend postIt1 note*/
-
-
 /*Rules for postIt2 note*/
 #postIt2 {
     background-color: lightblue;
@@ -81,22 +80,18 @@ a {
     top: -300px;
     right: 200px;
 }
-
     #postIt2 #postItBack2 {
         visibility: hidden;
     }
-
     #postIt2:hover {
         transform: scale(1.5) rotate(180deg);
         transition: 2s;
         transition-delay: 0.5s;
         background-color: red;
     }
-
         #postIt2:hover #postItFront2 {
             visibility: hidden;
         }
-
         #postIt2:hover #postItBack2 {
             transform: rotate(180deg);
             position: center;
@@ -106,7 +101,6 @@ a {
             visibility: visible;
         }
 /*legend postIt2 note*/
-
 /*Rules for postIt3 note*/
 #postIt3 {
     background-color: whitesmoke;
@@ -122,11 +116,9 @@ a {
     left: 700px;
     top: 50px;
 }
-
     #postIt3 #postItBack3 {
         visibility: hidden;
     }
-
     #postIt3:hover {
         transform: scaleY(-2) rotateY(180deg);
         transition: 2s;
@@ -136,11 +128,9 @@ a {
         border: 5px dotted white;
         border-radius: 20px;
     }
-
         #postIt3:hover #postItFront3 {
             visibility: hidden;
         }
-
         #postIt3:hover #postItBack3 {
             transform: rotate(180deg);
             position: center;
