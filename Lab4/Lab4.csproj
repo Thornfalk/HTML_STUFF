@@ -127,6 +127,10 @@
     <Content Include="images\ScubaDiving2.jpg" />
     <Content Include="images\UnderSea.jpeg" />
     <Content Include="index.html" />
+    <Content Include="pages\dreamPhotos.html" />
+    <Content Include="pages\landingPage.html" />
+    <Content Include="pages\maldiveGame.html" />
+    <Content Include="pages\videoSnap.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -142,7 +146,8 @@
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
-    <Content Include="Styles\style_index.css" />
+    <Content Include="Styles\landingPage.css" />
+    <Content Include="Styles\videoStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,23 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    padding-top:100px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    color:#FFFFFF;
+}
+.navbar-default{
+    transition-duration:1s;
+}
+.navbar-default:hover{
+    transition-duration:1s;
+    background-color:rgba(0, 0, 0, 0.20);
+}
