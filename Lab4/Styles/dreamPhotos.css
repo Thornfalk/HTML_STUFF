@@ -4,6 +4,7 @@
 }
 body {
     padding-top:80px;
+    background-color:black;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -26,3 +27,22 @@ h1, h2, h3, h4, h5, h6{
     float:right;
     color:white;
 }
+.row2{
+    padding-top:350px;
+}
+.row2 .thumbnail{
+    box-shadow:2px 2px;
+    background-color:gray;
+    transition:transform 0.5s;
+
+}
+.row2 .thumbnail:hover{
+    background-color:lightblue;
+    transform:rotateY(180deg);
+}
+
+
+
+
+
+
