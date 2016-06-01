@@ -36,9 +36,6 @@ h1, h2, h3, h4, h5, h6{
     padding-top:150px;
 }
 .row1 .thumbnail{
-    box-shadow:3px 3px gray;
-}
-.row1 .thumbnail{
     transform-style:preserve-3d;
     transition:transform 0.5s;
     box-shadow:0 0 50px darkgray;
@@ -54,6 +51,7 @@ h1, h2, h3, h4, h5, h6{
     width:360px;
     position:relative;
     top:-460px;
+    padding:6px;
     transform-style:preserve-3d;
     transition:transform 0.5s;
     box-shadow:0 0 50px darkgray;

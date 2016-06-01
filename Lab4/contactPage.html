@@ -22,7 +22,7 @@
                         data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                 </button> <!--creates a button on navbar that get visible when shrinking the site-->
-                <a class="navbar-brand" href="#">By Thornfalk</a>
+                <a class="navbar-brand" href="#">creator: Thornfalk</a>
             </div>
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -38,14 +38,27 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="thumbnail">
                     <img src="images/Contacts logo.jpg" />
+                    <h4 id="contactInfo"><b>Contact me at:</b> Thornfalk@gmail.com</h4>
                 </div>
             </div>
-            <div class="col-md-4">
-                <br /><br /><br />
-                <h2 id="contactInfo"><b>Contact me at:</b> Thornfalk@gmail.com</h2>
+            <div class="col-md-6">
+                <form>
+                    <fieldset>
+                        <legend>Contact information</legend>
+                        <label for="fname">First name:</label> <br />
+                        <input autofocus id="fname" type="text" name="fname" /> <br />
+                        <label for="lname">Last name:</label> <br />
+                        <input autofocus id="lname" type="text" name="lname" /> <br />
+                        <label for="phone">Phone:</label> <br />
+                        <input autofocus id="phone" type="tel" name="personPhoneNumber" /><br />
+                        <label for="email">E-mail:</label> <br />
+                        <input autofocus id="email" type="email" name="e-mail" /> <br />
+                    </fieldset>
+                    <fieldset><input type="submit" value="confirm" /></fieldset>
+                </form>
             </div>
         </div>
     </div>
@@ -53,7 +66,7 @@
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
         <div class="container">
             <div class="navbar-footer">
-                <p>&copy;2016 Powered by Bootstrap</p>
+                <p>&copy;2016 Powered with Bootstrap</p>
             </div>
         </div>
     </div>

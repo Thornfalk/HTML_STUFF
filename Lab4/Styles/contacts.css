@@ -16,7 +16,12 @@
     float:right;
     color:white;
 }
-#contactInfo{
-    position:relative;
-    top:480px;
+.col-md-6{
+    padding-top:100px;
+}
+form{
+    padding-top:50px;
+}
+label{
+    padding-top:20px;
 }
