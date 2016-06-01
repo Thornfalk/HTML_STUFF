@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
 }
 .navbar-brand{
-    color:#FFFFFF;
+    color:blue;
 }
 .navbar-default{
     transition-duration:0.5s;
@@ -27,22 +27,40 @@ h1, h2, h3, h4, h5, h6{
     float:right;
     color:white;
 }
-.row2{
-    padding-top:350px;
+.container-fluid{
+    background-color:lightblue;
+    color:black;
+    text-align:center;
 }
-.row2 .thumbnail{
-    box-shadow:2px 2px;
-    background-color:gray;
+.row1{
+    padding-top:150px;
+}
+.row1 .thumbnail{
+    box-shadow:3px 3px gray;
+}
+.row1 .thumbnail{
+    transform-style:preserve-3d;
     transition:transform 0.5s;
+    box-shadow:0 0 50px darkgray;
+}
+.row1 .thumbnail:hover{
+    background-color:lightblue;
+    box-shadow:0 0 50px purple;
+    /*transform:scale(1.2);*/
+    transform:rotateY(180deg);
 
 }
-.row2 .thumbnail:hover{
+.thumbnail-odd img{
+    width:360px;
+    position:relative;
+    top:-460px;
+    transform-style:preserve-3d;
+    transition:transform 0.5s;
+    box-shadow:0 0 50px darkgray;
+}
+.thumbnail-odd img:hover{
     background-color:lightblue;
+    box-shadow:0 0 50px purple;
+    /*transform:scale(1.2);*/
     transform:rotateY(180deg);
 }
-
-
-
-
-
-

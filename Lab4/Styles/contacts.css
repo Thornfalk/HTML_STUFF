@@ -1,0 +1,22 @@
+﻿body {
+    background-color:black;
+}
+.navbar-brand{
+    color:blue;
+}
+.navbar-default{
+    transition-duration:0.5s;
+}
+.navbar-default:hover{
+    background-color:#a7e9eb;
+}
+.navbar-footer{
+    position:relative;
+    top:10px;
+    float:right;
+    color:white;
+}
+#contactInfo{
+    position:relative;
+    top:480px;
+}
