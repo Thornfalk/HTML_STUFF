@@ -95,7 +95,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contactPage.html" />
+    <Content Include="images\aquarium.jpg" />
     <Content Include="images\Contacts logo.jpg" />
+    <Content Include="images\DIver.jpg" />
+    <Content Include="images\morayfish.jpg" />
+    <Content Include="images\shark.jpg" />
+    <Content Include="images\stoneFish.jpg" />
+    <Content Include="images\television.png" />
+    <Content Include="javascript\maldiveGame.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -151,6 +158,7 @@
     <Content Include="Styles\contacts.css" />
     <Content Include="Styles\dreamPhotos.css" />
     <Content Include="Styles\landingPage.css" />
+    <Content Include="Styles\Maldive-game.css" />
     <Content Include="Styles\videoStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>

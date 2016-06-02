@@ -1,1 +1,37 @@
-﻿
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    padding-top:80px;
+    background-color:black;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    color:blue;
+}
+.navbar-default{
+    transition-duration:0.5s;
+}
+.navbar-default:hover{
+    background-color:#a7e9eb;
+}
+.navbar-footer{
+    position:relative;
+    top:10px;
+    float:right;
+    color:white;
+}
+.container-fluid{
+    background-color:lightblue;
+    color:black;
+    text-align:center;
+}
+.video{
+
+}

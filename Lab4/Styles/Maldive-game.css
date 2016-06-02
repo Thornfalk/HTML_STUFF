@@ -1,0 +1,44 @@
+﻿body {
+}
+canvas{
+    padding-top:100px;
+    width:2000px;
+    height:1000px;
+}
+img{
+    width:1000px;
+    height:680px;
+}
+#aquarium{
+    position:relative;
+    left:135px;
+    top:-875px;
+}
+#diver img{
+    position:absolute;
+    left:900px;
+    top:350px;
+    width:100px;
+    height:140px;
+}
+#morayfish img{
+    position:absolute;
+    left:1000px;
+    top:750px;
+    width:100px;
+    height:140px;
+}
+#stonefish img{
+    position:absolute;
+    left:200px;
+    top:760px;
+    width:100px;
+    height:140px;
+}
+#shark img{
+    position:absolute;
+    left:600px;
+    top:450px;
+    width:100px;
+    height:140px;
+}
