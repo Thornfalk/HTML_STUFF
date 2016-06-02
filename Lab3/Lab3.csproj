@@ -94,12 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Dingeling_postit.html" />
+    <Content Include="pages\Dingeling_postit.html" />
     <Content Include="images\Chrysanthemum.jpg" />
     <Content Include="images\Hydrangeas.jpg" />
     <Content Include="images\Tulips.jpg" />
     <Content Include="index.html" />
-    <Content Include="MyResponsiveSite.html" />
+    <Content Include="pages\MyResponsiveSite.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -116,7 +116,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Phone.html" />
+    <Content Include="pages\Phone.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="styles\Dingeling_postit.css" />
