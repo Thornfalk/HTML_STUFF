@@ -113,3 +113,47 @@ body {
     left:156.3px;
     box-shadow:0 0 20px white inset;
 }
+#buttonTop{
+    width:40px;
+    height:5px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    position:relative;
+    top:-492px;
+    left:230px;
+    background-color:white;
+    box-shadow:0 0 1px black inset;
+}
+#buttonleft1{
+    width:5px;
+    height:30px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius:3px;
+    position:relative;
+    top:-400px;
+    left:-10px;
+    background-color:white;
+    box-shadow:0 0 1px black inset;
+}
+#buttonleft2{
+    width:5px;
+    height:30px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius:500px;
+    position:relative;
+    top:-360px;
+    left:-10px;
+    background-color:white;
+    box-shadow:0 0 1px black inset;
+}
+#buttonleft3{
+    width:5px;
+    height:30px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius:500px;
+    position:relative;
+    top:-340px;
+    left:-10px;
+    background-color:white;
+    box-shadow:0 0 1px black inset;
+}
