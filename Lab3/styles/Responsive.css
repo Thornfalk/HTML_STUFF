@@ -2,24 +2,20 @@
     margin: 0px;
     padding: 0px;
 }
-
 header {
     background-color: aquamarine;
     width: 100%;
 }
-
 body {
     background-color: white;
     padding: 50px;
     min-width: 1000px;
 }
-
 h1 {
     text-align: center;
     padding: 50px;
     width: 100%;
 }
-
 nav {
     position: absolute;
     top: 140px;
@@ -64,7 +60,6 @@ nav {
 img {
     width: 100%;
 }
-
 section {
     width: 30%;
     float: left;

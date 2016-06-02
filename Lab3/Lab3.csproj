@@ -120,6 +120,7 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="styles\Dingeling_postit.css" />
+    <Content Include="styles\mobile.css" />
     <Content Include="styles\myStyleSheet1.css" />
     <Content Include="styles\Phone.css" />
     <Content Include="styles\Responsive.css" />
