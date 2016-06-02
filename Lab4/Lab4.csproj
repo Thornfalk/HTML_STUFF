@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contactPage.html" />
+    <Content Include="pages\contactPage.html" />
     <Content Include="images\aquarium.jpg" />
     <Content Include="images\Contacts logo.jpg" />
     <Content Include="images\DIver.jpg" />
