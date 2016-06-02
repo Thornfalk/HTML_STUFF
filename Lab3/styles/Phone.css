@@ -20,15 +20,39 @@ body {
     margin-top:20px;
 }
 #speeker{
-    border:3px solid gold;
-    width:100px;
-    height:20px;
+    border:2px solid gold;
+    width:80px;
+    height:15px;
     border-radius:20px;
     position:relative;
-    top:30px;
-    left:115px;
+    top:35px;
+    left:125px;
     background-color:black;
     
+}
+#speakerhole{
+    width:0.5px;
+    height:0.5px;
+    border-radius:20px;
+    background-color:black;
+    padding:2px;
+    margin:2px;
+    padding:5px;
+    float:left;
+    position:relative;
+    top:-470px;
+    left:160px;
+}
+#speakerholeside{
+    border-radius:20px;
+    background-color:black;
+    padding:2px;
+    margin:2px;
+    padding:5px;
+    float:left;
+    position:relative;
+    top:-445px;
+    left:80px;
 }
 #frame{
     border:3px solid black;
