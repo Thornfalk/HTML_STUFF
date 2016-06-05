@@ -47,18 +47,3 @@ h1, h2, h3, h4, h5, h6{
     transform:rotateY(180deg);
 
 }
-.thumbnail-odd img{
-    width:360px;
-    position:relative;
-    top:-460px;
-    padding:6px;
-    transform-style:preserve-3d;
-    transition:transform 0.5s;
-    box-shadow:0 0 50px darkgray;
-}
-.thumbnail-odd img:hover{
-    background-color:lightblue;
-    box-shadow:0 0 50px purple;
-    /*transform:scale(1.2);*/
-    transform:rotateY(180deg);
-}

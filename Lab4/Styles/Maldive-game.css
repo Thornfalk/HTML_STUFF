@@ -1,23 +1,22 @@
 ﻿body {
 }
 canvas{
-    padding-top:100px;
-    width:2000px;
+    width:2350px;
     height:1000px;
 }
 img{
-    width:1000px;
-    height:680px;
+    width:1180px;
+    height:670px;
 }
 #aquarium{
     position:relative;
-    left:135px;
+    left:154px;
     top:-875px;
 }
 #diver img{
     position:absolute;
     left:900px;
-    top:350px;
+    top:400px;
     width:100px;
     height:140px;
 }
