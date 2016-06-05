@@ -4,7 +4,6 @@
 }
 body {
     padding-top:80px;
-    background-color:black;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -35,15 +34,19 @@ h1, h2, h3, h4, h5, h6{
 .row1{
     padding-top:150px;
 }
+.thumbnail .img{
+    position:relative;
+    width:100%;
+    height:100%;
+} 
 .row1 .thumbnail{
     transform-style:preserve-3d;
-    transition:transform 0.5s;
+    transition:transform 1s;
     box-shadow:0 0 50px darkgray;
+    
 }
 .row1 .thumbnail:hover{
     background-color:lightblue;
     box-shadow:0 0 50px purple;
-    /*transform:scale(1.2);*/
-    transform:rotateY(180deg);
-
+    transform:rotateY(180deg) rotateX(180deg);
 }

@@ -10,6 +10,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!--fixed navigation bar starts here-->
@@ -43,7 +45,7 @@
                     <img src="../images/Contacts logo.jpg" />
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <form>
                     <fieldset>
                         <legend>Contact information</legend>
@@ -61,15 +63,31 @@
                 </form>
                 <br /><h4 id="contactInfo"><b>Contact me at:</b> Thornfalk@gmail.com</h4>
             </div>
-        </div>
-    </div>
-    <!--Fixed Footer starts here-->
-    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-        <div class="container">
-            <div class="navbar-footer">
-                <p>&copy;2016 School project : powered by bootstrap</p>
+            <div class="col-md-3">
+                <div id="smileys">
+                    <img src="../images/happySmiley.jpg" />
+                    <img src="../images/normalSmiley.jpg" />
+                    <img src="../images/sadSmiley.jpg" />
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Rate
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><input id="smiley" type="submit" value="I Like ! ">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​</li>
+                        <li><input id="smiley" type="submit" value="Was ok">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​</li>
+                        <li><input id="smiley" type="submit" value="Dislike..">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+        <!--Fixed Footer starts here-->
+        <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                <div class="navbar-footer">
+                    <p>&copy;2016 School project : powered by bootstrap</p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
