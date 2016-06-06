@@ -97,6 +97,9 @@
     <Content Include="images\happySmiley.jpg" />
     <Content Include="images\normalSmiley.jpg" />
     <Content Include="images\sadSmiley.jpg" />
+    <Content Include="music\ocean-waves-1.mp3" />
+    <Content Include="music\Rowing A Boat-SoundBible.com-2108783030.mp3" />
+    <Content Include="music\Wetlands-SoundBible.com-1972469419.mp3" />
     <Content Include="pages\contactPage.html" />
     <Content Include="images\aquarium.jpg" />
     <Content Include="images\Contacts logo.jpg" />
@@ -168,9 +171,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="music\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
