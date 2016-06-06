@@ -97,6 +97,7 @@
     <Content Include="images\happySmiley.jpg" />
     <Content Include="images\normalSmiley.jpg" />
     <Content Include="images\sadSmiley.jpg" />
+    <Content Include="images\shark.jpg" />
     <Content Include="music\ocean-waves-1.mp3" />
     <Content Include="music\Rowing A Boat-SoundBible.com-2108783030.mp3" />
     <Content Include="music\Wetlands-SoundBible.com-1972469419.mp3" />
@@ -105,7 +106,6 @@
     <Content Include="images\Contacts logo.jpg" />
     <Content Include="images\DIver.jpg" />
     <Content Include="images\morayfish.jpg" />
-    <Content Include="images\shark.jpg" />
     <Content Include="images\stoneFish.jpg" />
     <Content Include="images\television.png" />
     <Content Include="javascript\maldiveGame.js" />

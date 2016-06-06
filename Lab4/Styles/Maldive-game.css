@@ -19,6 +19,16 @@ img{
     top:400px;
     width:100px;
     height:140px;
+    animation-name:DiverMovement;
+    animation-duration:40s;
+}
+@keyframes DiverMovement {
+    20% {top:700px;}
+    40% {left:300px;}
+    60%{top:400px;}
+    65%{transform:rotateY(180deg)}
+    80%{left:900px;}
+    100%{top:400px;}
 }
 #morayfish img{
     position:absolute;
@@ -26,6 +36,15 @@ img{
     top:750px;
     width:100px;
     height:140px;
+    animation-name:morayMovement;
+    animation-duration:20s;
+}
+@keyframes morayMovement {
+    0% {top:750px;}
+    25% {left:900px;}
+    50%{top:600px;}
+    75%{left:1000px;}
+    100%{top:750px;}
 }
 #stonefish img{
     position:absolute;
@@ -40,4 +59,16 @@ img{
     top:450px;
     width:100px;
     height:140px;
+    animation-name:sharkMovement;
+    animation-duration:40s;
+}
+@keyframes sharkMovement {
+    5%{transform:rotateY(180deg)}
+    20% {top:450px;}
+    40% {left:800px;}
+    40%{transform:rotateY(180deg)}
+    60%{top:300px;}
+    80%{left:1200px;}
+    99%{left:600px;}
+    100%{top:450px;}
 }
