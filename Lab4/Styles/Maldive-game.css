@@ -21,6 +21,7 @@ img{
     height:140px;
     animation-name:DiverMovement;
     animation-duration:40s;
+    animation-iteration-count:infinite;
 }
 @keyframes DiverMovement {
     20% {top:700px;}
@@ -38,6 +39,7 @@ img{
     height:140px;
     animation-name:morayMovement;
     animation-duration:20s;
+    animation-iteration-count:infinite;
 }
 @keyframes morayMovement {
     0% {top:750px;}
@@ -61,6 +63,7 @@ img{
     height:140px;
     animation-name:sharkMovement;
     animation-duration:40s;
+    animation-iteration-count:infinite;
 }
 @keyframes sharkMovement {
     5%{transform:rotateY(180deg)}
